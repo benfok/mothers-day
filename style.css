@@ -25,6 +25,7 @@ h1 {
     font-size: 200%;
     padding: 20px;
     margin: 2rem 0;
+    text-align: center;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h2 {
 p {
     padding: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 ul {
@@ -63,4 +65,15 @@ img {
     border: solid 1px black;
     margin: 0;
     flex: 1 0 100%;
+}
+
+@media screen and (min-width: 576px) {
+    img {
+        max-width: 300px;
+    }
+}
+@media screen and (min-width: 998px) {
+    img {
+        max-width: 500px;
+    }
 }
